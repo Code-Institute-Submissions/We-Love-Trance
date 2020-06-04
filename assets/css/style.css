@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*---------------------------------------------------------Colors--*/
+
+.ui-menu-color-home {
+    background-color: #ba68c8;
+}
+
+
+.ui-menu-color-listen {
+    background-color: #ab47bc;
+}
+
+
+.ui-menu-color-buy {
+    background-color: #9c27b0;
+}
+
+
+.ui-menu-color-signup {
+    background-color: #8e24aa;
+}
+
+
+
+
+/*---------------------------------------------------------Header--*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    border:black 2px solid;
+
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+    padding: 0; 
+}
+
+.menuitem {
+    height: 180px;
+    text-align: center;
+    border:black 1px solid;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.menuitem a i {
+    display: block;
+    padding-top: 50px;
+    font-size: 40px;
+    color: #fafafa;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 30px;
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+} 
+
+#nav {
+    margin: 0;
+}
+
+/*---------------------------------------------------------Footer--*/
