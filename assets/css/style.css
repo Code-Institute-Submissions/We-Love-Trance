@@ -56,7 +56,7 @@ header {
 }
 
 .menuitem a {
-    width: 50%;
+    width: 100%;
     text-decoration: none;
     color: #fafafa;
 }
@@ -104,14 +104,14 @@ footer {
 }
 
 .footeritem {
-    height: 50px;
+    height: 90px;
     text-align: center;
     padding: 0;
 }
 
 .footeritem a {
     text-decoration: none;
-    width: 50%;
+    width: 100%;
     color: #fafafa;
 }
 
