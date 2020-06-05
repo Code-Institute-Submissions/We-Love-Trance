@@ -101,6 +101,8 @@ header {
 
 .biocontainer {
     border:black 2px solid;
+    background-color: #BCBBFF;
+    
 }
 
 /*---------------------------------------------------------Section Listen--*/
@@ -121,6 +123,7 @@ header {
 
 .musiccontainer {
     border:black 2px solid;
+    background-color: #00FDFB;
 }
 
 /*---------------------------------------------------------Section Signup--*/
@@ -141,6 +144,7 @@ header {
 
 .signupcontainer {
     border:black 2px solid;
+    background-color: #CEB8DC;
 }
 /*---------------------------------------------------------Footer--*/
 
