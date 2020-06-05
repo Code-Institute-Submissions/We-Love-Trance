@@ -2,22 +2,22 @@
 
 /*---------------------------------------------------------Colors--*/
 
-.ui-menu-color-home {
+.menu-color-home {
     background-color: #724FE2;
 }
 
 
-.ui-menu-color-listen {
+.menu-color-listen {
     background-color: #6341CD;
 }
 
 
-.ui-menu-color-buy {
+.menu-color-buy {
     background-color: #3F27A1;
 }
 
 
-.ui-menu-color-signup {
+.menu-color-signup {
     background-color: #341f81}
 
 
@@ -83,6 +83,65 @@ header {
     margin: 0;
 }
 
+/*---------------------------------------------------------Section Home--*/
+
+.sectioncontainer {
+    margin: 0;
+    padding: 0;
+}
+
+.djimage {
+    background: url("../images/dj.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    border:black 2px solid;
+}
+
+.biocontainer {
+    border:black 2px solid;
+}
+
+/*---------------------------------------------------------Section Listen--*/
+
+.sectioncontainer {
+    margin: 0;
+    padding: 0;
+}
+
+.decksimage {
+    background: url("../images/decks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    border:black 2px solid;
+}
+
+.musiccontainer {
+    border:black 2px solid;
+}
+
+/*---------------------------------------------------------Section Signup--*/
+
+.sectioncontainer {
+    margin: 0;
+    padding: 0;
+}
+
+.studio {
+    background: url("../images/studio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    border:black 2px solid;
+}
+
+.signupcontainer {
+    border:black 2px solid;
+}
 /*---------------------------------------------------------Footer--*/
 
 
@@ -90,6 +149,8 @@ footer {
     margin: 0;
     background-color: #724FE2; 
     min-height: 90px;
+    border:black 2px solid;
+
 }
 
 
