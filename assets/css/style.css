@@ -63,7 +63,7 @@ header {
 
 .menuitem a i {
     display: block;
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 40px;
     color: #fafafa;
 }
@@ -151,13 +151,21 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 520px;
+    min-height: 520px;
     border:black 2px solid;
 }
 
 .musiccontainer {
     border:black 2px solid;
     background-color: #00FDFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;      
+}
+
+.music-item {
+    border:black 2px solid;  
+    margin: 20px;
 }
 
 /*---------------------------------------------------------Section Signup--*/
