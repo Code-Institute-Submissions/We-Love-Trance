@@ -95,7 +95,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 520px;
+    min-height: 520px;
     border:black 2px solid;
 }
 
@@ -105,12 +105,46 @@ header {
     
 }
 
+.biocontainer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bio-header {
+    font-size: 40px;
+    color: black;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;   
+}
+
+
+.bio-text {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-header {
+    font-size: 30px;
+    color: black;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+}
+
+.contact-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
 /*---------------------------------------------------------Section Listen--*/
 
-.sectioncontainer {
-    margin: 0;
-    padding: 0;
-}
+
 
 .decksimage {
     background: url("../images/decks.jpg");
@@ -128,10 +162,6 @@ header {
 
 /*---------------------------------------------------------Section Signup--*/
 
-.sectioncontainer {
-    margin: 0;
-    padding: 0;
-}
 
 .studio {
     background: url("../images/studio.jpg");
@@ -198,6 +228,4 @@ footer {
     font-family: "Roboto", sans-serif;
 }
 
-.copy-text {
-    text-align: center;
-}
+
