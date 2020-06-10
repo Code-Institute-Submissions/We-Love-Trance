@@ -1,5 +1,3 @@
-# User Centric Frontend Development Milestone Project
-
 ## We Love Trance!
 
 In my spare time I produce trance music. So I came up with the idea to showcase my music by building a website which lets people listen to it, and provide links to purchase the music. There is also a page for people to sign up for new release dates and a newsletter.
@@ -60,13 +58,13 @@ I have used the same logo that I created for all of the pages. Because of this, 
 
 The buy link will in future take the user to a website to purchase my music. I am currently setting this up with Soundcloud, Spotify and Apple Music. The links can be edited when this is complete. The facebook and YouTube links take the user to the home pages of these website until I have set up each external page accordingly.
 
-## Testing
+## Testing INCOMPLETE
 
 I have published my project for peer review on Slack.
 
 During my own testing process, I have clicked on each link on each page to check it done as expected.
 
-## Deployment
+## Deployment INCOMPLETE
 
 Before submission, I have deployed my code onto Git Pages. I done this by going into settings under my repository and under "GitHub Pages", used the Source drop-down menu and selected a publishing source of master branch.
 
