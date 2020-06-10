@@ -48,6 +48,10 @@ I took pictures from pixabay to use in my project. I used these as they are roya
 I have used the same logo that I created for all of the pages. Because of this, I used a color picker website to determine the color scheme of the website.
 
  * https://html-color-codes.info/colors-from-image/
+ 
+From these colors, I used a website that helps determine primary and secondary color themes:
+
+ * https://material.io/
 
 ## Features
 
