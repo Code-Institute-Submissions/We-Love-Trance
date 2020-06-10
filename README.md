@@ -18,8 +18,8 @@ For the user visiting my website, they will want:
 My website has been split into pages specifically for each of these user goals. 
 
   * The biography on the index.htm page has a little about me as a producer, where I from and my background,
-  * The listen.html page has four tracks that I've produced for the user to stream from soundcloud via my website,
-  * A sign up page for the user to enter their email address to recieve updates on future release dates, gigs, and a newsletter.
+  * The listen.html page has four tracks that I've produced for the user to stream from SoundCloud via my website,
+  * A sign up page for the user to enter their email address to receive updates on future release dates, gigs, and a newsletter.
 
 
 
@@ -27,7 +27,7 @@ I created a wireframe of which the file is in the wireframe directory. This was 
 
 Due to the use of Bootstrap technology, the whole website collapses into a nicely presented format when viewed on mobile. 
 
-At the time of me doing the project, I have started the process of monetizing my tracks, so that the link from the buy menu will actually take the user to spotify or soundcloud to purchase the music.
+At the time of me doing the project, I have started the process of monetising my tracks, so that the link from the buy menu will actually take the user to Spotify or SoundCloud to purchase the music.
 
 ## Technologies Used
 
@@ -59,18 +59,18 @@ From these colors, I used a website that helps determine primary and secondary c
 
  * Logo - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
  * Navbar - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page.
- * Footer - The footer has four links, made up of icons. Facebook, Soundcloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
+ * Footer - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
  * Sections - Each section provides the user with what each page intends. There is a picture on the left of each page, all linking to the home page. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked.
  
 ### Features to Implement
 
-The buy link will in future take the user to a website to purchase my music. I am currently setting this up with Soundcloud, Spotify and Apple Music. The links can be edited when this is complete. The facebook and YouTube links take the user to the home pages of these website until I have set up each external page accordingly.
+The buy link will in future take the user to a website to purchase my music. I am currently setting this up with SoundCloud, Spotify and Apple Music. The links can be edited when this is complete. The Facebook and YouTube links take the user to the home pages of these website until I have set up each external page accordingly.
 
 ## Testing INCOMPLETE/NEEDS EDITING
 
 I have published my project for peer review on Slack.
 
-During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo and all the pictures take the user to the home page, as does the home button. All of the footer icons take the user to the relevent web pages on a new tab.
+During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo and all the pictures take the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages on a new tab.
 
 On the home page, the link to my email works as intended. It opened my email application on my laptop.
 
@@ -78,7 +78,7 @@ The tracks on the listen page all play as intended when clicked on the play butt
 
 The form on the sign up page prompts when the user does not put information in correctly.
 
-I have used developer tools on google chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes.
+I have used developer tools on Google Chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes.
 
 I did encounter a slight problem midway through my project. I'm not exactly sure what I done but after replicating the footer and header on all three pages, there seemed to be a margin above three of the navigation bar items as I resized the screen to smaller areas. I only noticed after committing the code. I hadn't added any other HTML or CSS so I couldn't understand why this had happened so I had to go back to the previous commit and use the code from there. I also pulled the .list-inline-item:not(:last-child) from the tutorial in the mini project to stop content from wrapping underneath. This solved the problem. 
 
