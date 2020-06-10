@@ -1,12 +1,12 @@
-# H1 User Centric Frontend Development Milestone Project
+# User Centric Frontend Development Milestone Project
 
-## H2 Artist Website for Mark Dennis
+## Artist Website for Mark Dennis
 
 In my spare time I produce trance music. So I came up with the idea to showcase my music by building a website which lets people listen to it, and provide links to purchase the music. There is also a page for people to sign up for new release dates and a newsletter.
 
 I decided on a home page that would act as a biography, a listen page so people can stream my music, and a sign up page for people to leave their email address for updates on new releases. I can go back to completing this when I have learnt the appropriate back end programming.
 
-## H2 UX
+## UX
 
 The aim for my website was to showcase my music. I felt that the layout should be simple and took inspiration from the bootstrap tutorials and worked in thirds. I wanted to have the same navigation and footer across all three pages for both simplicity and ease of use for visitors to the website.
 
@@ -27,7 +27,7 @@ I created a wireframe of which the file is in the wireframe directory. This was 
 
 At the time of me doing the project, I have started the process of monetizing my tracks, so that the link from the buy menu will actually take the user to spotify or soundcloud to purchase the music.
 
-## H2 Technologies Used
+## Technologies Used
 
 My project uses HTML and CSS in conjunction with the Bootstrap Framework. I used Google Fonts for the texts and font awesome for the icons.
 
@@ -47,16 +47,17 @@ I have used the same logo that I created for all of the pages. Because of this, 
 
  * https://html-color-codes.info/colors-from-image/
 
-## H2 Features
+## Features
 
-### H3 Existing Features
+### Existing Features
 
 
 
 
 ### Acknowledgements
-https://html-color-codes.info/colors-from-image/
-www.pixabay.com
-https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=FF1744
-https://fonts.google.com/
-https://fontawesome.com/start
+ * https://html-color-codes.info/colors-from-image/
+ * www.pixabay.com
+ * https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=FF1744
+ * https://fonts.google.com/
+ * https://fontawesome.com/start
+ * https://www.bootstrapcdn.com/
