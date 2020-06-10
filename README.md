@@ -80,15 +80,17 @@ I did encounter a slight problem midway through my project. I'm not exactly sure
 
 Before submission, I have deployed my code onto Git Pages. I done this by going into settings under my repository and under "GitHub Pages", used the Source drop-down menu and selected a publishing source of master branch.
 
- * Live Website: https://markdennisuk.github.io/mp1/index.html
- * GitHub Repository: https://github.com/MarkDennisUK/mp1
+ * Live Website: https://markdennisuk.github.io/We-Love-Trance/
+ * GitHub Repository: https://github.com/MarkDennisUK/We-Love-Trance
 
 This was done before mentor review and may need some changes.
 
+### Media
+
+ * www.pixabay.com (photos)
 
 ### Acknowledgements
  * https://html-color-codes.info/colors-from-image/
- * www.pixabay.com
  * https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=FF1744
  * https://fonts.google.com/
  * https://fontawesome.com/start
