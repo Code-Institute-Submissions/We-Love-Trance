@@ -211,6 +211,8 @@ footer {
     border:black 2px solid;
 }
 
+/*------------------------------------used a fix from tutorial in mini project to stop content wrapping underneath----*/
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
