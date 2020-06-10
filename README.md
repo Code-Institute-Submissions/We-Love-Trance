@@ -51,7 +51,29 @@ I have used the same logo that I created for all of the pages. Because of this, 
 
 ### Existing Features
 
+ * Logo - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
+ * Navbar - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page.
+ * Footer - The footer has four links, made up of icons. Facebook, Soundcloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
+ * Sections - Each section provides the user with what each page intends. There is a picture on the left of each page, all linking to the home page. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. 
+ 
+### Features to Implement
 
+The buy link will in future take the user to a website to purchase my music. I am currently setting this up with Soundcloud, Spotify and Apple Music. The links can be edited when this is complete. The facebook and YouTube links take the user to the home pages of these website until I have set up each external page accordingly.
+
+## Testing
+
+I have published my project for peer review on Slack.
+
+During my own testing process, I have clicked on each link on each page to check it done as expected.
+
+## Deployment
+
+Before submission, I have deployed my code onto Git Pages. I done this by going into settings under my repository and under "GitHub Pages", used the Source drop-down menu and selected a publishing source of master branch.
+
+ * Live Website: https://markdennisuk.github.io/mp1/index.html
+ * GitHub Repository: https://github.com/MarkDennisUK/mp1
+
+This was done before mentor review and may need some changes.
 
 
 ### Acknowledgements
