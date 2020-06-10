@@ -21,6 +21,8 @@ My website has been split into pages specifically for each of these user goals.
   * The listen.html page has four tracks that I've produced for the user to stream from soundcloud via my website,
   * A sign up page for the user to enter their email address to recieve updates on future release dates, gigs, and a newsletter.
 
+
+
 I created a wireframe of which the file is in the wireframe directory. This was the first time using wireframes so it was quite simple in design but it put across how I wanted my website to look. Minor deviations from the wireframe structure were made whilst writing the code but on the whole, the layout is the same.
 
 Due to the use of Bootstrap technology, the whole website collapses into a nicely presented format when viewed on mobile. 
@@ -37,7 +39,7 @@ My project uses HTML and CSS in conjunction with the Bootstrap Framework. I used
 
  * https://www.bootstrapcdn.com/
  
-I have used these because during my studies so far, I have learnt how to use these to incorporate into websites. I felt the icons were a good fit for what I was trying to achieve.
+I have used these because during my studies so far, I have learnt how to use these to incorporate into websites. I felt the icons were a good fit for what I was trying to achieve. The fonts I've used I felt also fit into the type of website it is.
 
 I took pictures from pixabay to use in my project. I used these as they are royalty free and cost nothing. The pictures used are of the highest quality and represented the page of where it was used in my project.
 
@@ -54,7 +56,7 @@ I have used the same logo that I created for all of the pages. Because of this, 
  * Logo - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
  * Navbar - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page.
  * Footer - The footer has four links, made up of icons. Facebook, Soundcloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
- * Sections - Each section provides the user with what each page intends. There is a picture on the left of each page, all linking to the home page. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. 
+ * Sections - Each section provides the user with what each page intends. There is a picture on the left of each page, all linking to the home page. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked.
  
 ### Features to Implement
 
@@ -90,8 +92,14 @@ This was done before mentor review and may need some changes.
  * www.pixabay.com (photos)
 
 ### Acknowledgements
+
+ * Mini Project Tutorials
  * https://html-color-codes.info/colors-from-image/
  * https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=FF1744
  * https://fonts.google.com/
  * https://fontawesome.com/start
+ * https://www.w3.org/WAI/GL/wiki/Using_aria-label_to_provide_labels_for_objects
  * https://www.bootstrapcdn.com/
+ * http://shoelace.io/
+ * https://soundcloud.com/mark-dennis-uk/
+ * https://cdnjs.com/
