@@ -58,10 +58,10 @@
 					<p class="signup-text">Just leave your name and email to be sent the latest information on new
 						releases, newsletters and upcoming gigs. Be the first to listen to new tracks!</p>
 					<!---------------------------------As I haven't studied any back end programming yet, I have just left this as a form without an action. I can come back to this to complete once I've learnt this. Used code learnt in html module.-------->
-					<form action="#" method="post" class="signup-form">
-						<label for="email">Email</label>
-						<input type="email" id="email" placeholder="email" name="email" required><br>
-						<input type="submit" value="Sign Up">
+					<form class="signup-form" method="post" name="contact_form" action="#">
+						Your Name: <br><input type="text" name="name" required><br>
+                        Email Address: <br><input  type="text" name="email" required><br>
+						<input type="submit" value="Sign Up!">
                     </form>
 				</div>
 			</div>
@@ -76,20 +76,20 @@
 						<ul id="footer" class="list-inline footercontainer">
 							<li class="col-6 col-sm-3 list-inline-item footeritem">
 								<a href="https://www.facebook.com/denproject" class="hvr-push"
-									target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									target="_blank"><i class="fa fa-facebook" aria-label="facebook"></i></a>
 							</li>
 							<li class="col-6 col-sm-3 list-inline-item footeritem">
 								<a href="https://www.soundcloud.com/mark-dennis-uk" class="hvr-push"
-									target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+									target="_blank"><i class="fa fa-soundcloud" aria-label="soundcloud"></i></a>
 							</li>
 							<li class="col-6 col-sm-3 list-inline-item footeritem">
 								<a href="https://www.youtube.com" class="hvr-push"
-									target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+									target="_blank"><i class="fa fa-youtube" aria-label="youtube"></i></a>
 							</li>
 							<!--This would be a link to an external website where the user buys the music - for now I've left it to my soundcloud page until I can incorperate this into my website-->
 							<li class="col-6 col-sm-3 list-inline-item footeritem">
 								<a href="https://www.soundcloud.com/mark-dennis-uk" class="hvr-push"
-									target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
+									target="_blank"><i class="fa fa-download" aria-label="purchase"></i></a>
 							</li>
 						</ul>
 					</div>
