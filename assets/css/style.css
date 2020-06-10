@@ -1,3 +1,5 @@
+/*---------------------------------------------------------Fonts/Weight - Although the project doesn't use every one, I have kept them all as during/after the project, the fonts and weights can be altered-*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*---------------------------------------------------------Colors--*/
@@ -25,10 +27,6 @@
 
 /*---------------------------------------------------------Header--*/
 
-header {
-    margin: 0;
-}
-
 .logo {
     background: url("../images/logo.jpg");
     background-position: center;
@@ -36,11 +34,6 @@ header {
     background-size: cover;
     height: 180px;
     border:black 2px solid;
-
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
 }
 
 .menucontainer {
@@ -101,8 +94,7 @@ header {
 
 .biocontainer {
     border:black 2px solid;
-    background-color: #BCBBFF;
-    
+    background-color: #BCBBFF;  
 }
 
 .biocontainer {
@@ -192,8 +184,7 @@ header {
     color: black;
     font-family: "Exo", sans-serif;
     font-weight: 600;
-    text-transform: uppercase;   
-    
+    text-transform: uppercase;
 }
 
 
@@ -207,8 +198,7 @@ header {
 }
 
 .signup-form {
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;   
 }
 
 /*---------------------------------------------------------Footer--*/
@@ -219,10 +209,7 @@ footer {
     background-color: #724FE2; 
     min-height: 90px;
     border:black 2px solid;
-
 }
-
-
 
 .list-inline-item:not(:last-child) {
     margin: 0;
