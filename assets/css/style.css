@@ -183,6 +183,31 @@ header {
 .signupcontainer {
     border:black 2px solid;
     background-color: #CEB8DC;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.signup-header {
+    font-size: 40px;
+    color: black;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;   
+    
+}
+
+
+.signup-text {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 50px;
+}
+
+.signup-form {
+    padding-bottom: 50px;
 }
 /*---------------------------------------------------------Footer--*/
 

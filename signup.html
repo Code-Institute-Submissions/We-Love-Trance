@@ -46,14 +46,24 @@
 			</div>
 		</div>
 	</header>
-	<!-- -----------------------------------------------------Section-->
+	<!-- -----------------------------------------------------Section - bootstrap-->
 	<section>
-        <div class="container-fluid sectioncontainer">
+		<div class="container-fluid sectioncontainer">
 			<div class="row no-gutters">
 
 				<a href="index.html" class="col-sm-6 col-md-4 studio"></a>
 
-				<div class="col-sm-6 col-md-8 signupcontainer">Signup</div>
+				<div class="col-sm-6 col-md-8 signupcontainer">
+					<h1 class="signup-header">Sign Up</h1>
+					<p class="signup-text">Just leave your name and email to be sent the latest information on new
+						releases, newsletters and upcoming gigs. Be the first to listen to new tracks!</p>
+					<!---------------------------------As I haven't studied any back end programming yet, I have just left this as a form without an action. I can come back to this to complete once I've learnt this. Used code learnt in html module.-------->
+					<form action="#" method="post" class="signup-form">
+						<label for="email">Email</label>
+						<input type="email" id="email" placeholder="email" name="email" required><br>
+						<input type="submit" value="Sign Up">
+                    </form>
+				</div>
 			</div>
 		</div>
 	</section>
