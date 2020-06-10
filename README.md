@@ -23,6 +23,8 @@ My website has been split into pages specifically for each of these user goals.
 
 I created a wireframe of which the file is in the wireframe directory. This was the first time using wireframes so it was quite simple in design but it put across how I wanted my website to look. Minor deviations from the wireframe structure were made whilst writing the code but on the whole, the layout is the same.
 
+Due to the use of Bootstrap technology, the whole website collapses into a nicely presented format when viewed on mobile. 
+
 At the time of me doing the project, I have started the process of monetizing my tracks, so that the link from the buy menu will actually take the user to spotify or soundcloud to purchase the music.
 
 ## Technologies Used
@@ -58,13 +60,23 @@ I have used the same logo that I created for all of the pages. Because of this, 
 
 The buy link will in future take the user to a website to purchase my music. I am currently setting this up with Soundcloud, Spotify and Apple Music. The links can be edited when this is complete. The facebook and YouTube links take the user to the home pages of these website until I have set up each external page accordingly.
 
-## Testing INCOMPLETE
+## Testing INCOMPLETE/NEEDS EDITING
 
 I have published my project for peer review on Slack.
 
-During my own testing process, I have clicked on each link on each page to check it done as expected.
+During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo and all the pictures take the user to the home page, as does the home button. All of the footer icons take the user to the relevent web pages on a new tab.
 
-## Deployment INCOMPLETE
+On the home page, the link to my email works as intended. It opened my email application on my laptop.
+
+The tracks on the listen page all play as intended when clicked on the play button.
+
+The form on the sign up page prompts when the user does not put information in correctly.
+
+I have used developer tools on google chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes.
+
+I did encounter a slight problem midway through my project. I'm not exactly sure what I done but after replicating the footer and header on all three pages, there seemed to be a margin above three of the navigation bar items as I resized the screen to smaller areas. I only noticed after committing the code. I hadn't added any other HTML or CSS so I couldn't understand why this had happened so I had to go back to the previous commit and use the code from there. This solved the problem. 
+
+## Deployment INCOMPLETE/NEEDS EDITING
 
 Before submission, I have deployed my code onto Git Pages. I done this by going into settings under my repository and under "GitHub Pages", used the Source drop-down menu and selected a publishing source of master branch.
 
