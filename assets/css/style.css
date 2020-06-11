@@ -229,14 +229,14 @@ footer {
 
 .footer-item a {
     text-decoration: none;
-    width: 100%;
+    width: 50%;
     color: #fafafa;
 }
 
 .footer-item a i {
     display: block;
-    padding-top: 30px;
-    font-size: 30px;
+    padding-top: 35px;
+    font-size: 20px;
     color: #fafafa;
 }
 
@@ -256,17 +256,38 @@ footer {
 /*--media query --*/
 
 @media only screen and (max-width: 768px) {
+
+    .logo {
+        height: 90px;
+    }
+
     .menu-item {
         height: 90px;
     }
 
     .menu-item a i {
-    margin-top: 20px;
-    font-size: 20px;
+        margin-top: 20px;
+        font-size: 20px;
     }
 
-.menu-item span {
-    font-size: 20px;
+    .menu-item span {
+        font-size: 20px;
+    }
+
+    .dj-image {
+        min-height: 360px;
+    }
+
+    .studio-image {
+        min-height: 360px;
+    }
+
+    .decks-image {
+        min-height: 360px;
+    }
+
+    .copyright {
+        margin-bottom: 10px;
     }
 
     
