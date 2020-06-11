@@ -70,9 +70,9 @@ The buy link will in future take the user to a website to purchase my music. I a
 
 I have published my project for peer review on Slack.
 
-During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo and all the pictures take the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages on a new tab.
+During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo takes the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages in a new tab.
 
-On the home page, the link to my email works as intended. It opened my email application on my laptop.
+On the home page, the link to my email works as intended. It opened my email application.
 
 The tracks on the listen page all play as intended when clicked on the play button.
 
