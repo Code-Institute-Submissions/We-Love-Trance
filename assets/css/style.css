@@ -112,7 +112,7 @@
 
 
 .bio-text {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -134,6 +134,11 @@
     padding-bottom: 50px;
 }
 
+.email-address{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
 /*---------------------------------------------------------Section Listen--*/
 
 
@@ -189,7 +194,7 @@
 
 
 .signup-text {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
