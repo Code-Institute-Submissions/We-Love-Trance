@@ -68,7 +68,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 520px;
+    min-height: 800px;
     border:black 2px solid;
 }
 
@@ -128,7 +128,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 520px;
+    min-height: 800px;
     border:black 2px solid;
 }
 
@@ -153,7 +153,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 520px;
+    min-height: 800px;
     border:black 2px solid;
 }
 
@@ -179,7 +179,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     padding-left: 50px;
     padding-right: 50px;
     font-family: "Exo", sans-serif;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .signup-form {
@@ -189,6 +189,13 @@ I have kept them all as during/after the project, the fonts and weights can be a
 
 .signup-button{
     margin: 10px;
+    
+}
+
+.form-box {
+    position: relative;
+    width: 80%;
+    margin: 15px;    
 }
 
 /*--Footer--*/
@@ -213,7 +220,7 @@ footer {
 }
 
 .footer-item {
-    height: 90px;
+    height: 45px;
     text-align: center;
     padding: 0;
 }
@@ -227,20 +234,21 @@ footer {
 .footer-item a i {
     display: block;
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 30px;
     color: #fafafa;
 }
 
 
 #footer {
-    margin: 0;
+    margin: 0; 
 }
 
 .copyright {  
     color: #fafafa;
     padding-top: 33px;
-    margin-bottom: 20px;
     font-family: "Exo", sans-serif;
+    text-align: center;
+    
 }
 
 
