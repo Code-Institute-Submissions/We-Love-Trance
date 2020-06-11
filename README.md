@@ -66,9 +66,9 @@ From these colors, I used a website that helps determine primary and secondary c
 
 The buy link will in future take the user to a website to purchase my music. I am currently setting this up with SoundCloud, Spotify and Apple Music. The links can be edited when this is complete. The Facebook and YouTube links take the user to the home pages of these website until I have set up each external page accordingly.
 
-## Testing INCOMPLETE/NEEDS EDITING
+## Testing
 
-I have published my project for peer review on Slack.
+I published my project for peer review on Slack. I had a few suggestions which I had a look at and made a few changes. After a review with my mentor it was evident I needed to change the layout for iPad use, which I implemented.
 
 During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo takes the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages in a new tab.
 
@@ -82,14 +82,13 @@ I have used developer tools on Google Chrome throughout the project to make sure
 
 I did encounter a slight problem midway through my project. I'm not exactly sure what I done but after replicating the footer and header on all three pages, there seemed to be a margin above three of the navigation bar items as I resized the screen to smaller areas. I only noticed after committing the code. I hadn't added any other HTML or CSS so I couldn't understand why this had happened so I had to go back to the previous commit and use the code from there. I also pulled the .list-inline-item:not(:last-child) from the tutorial in the mini project to stop content from wrapping underneath. This solved the problem. 
 
-## Deployment INCOMPLETE/NEEDS EDITING
+## Deployment
 
 Before submission, I have deployed my code onto Git Pages. I done this by going into settings under my repository and under "GitHub Pages", used the Source drop-down menu and selected a publishing source of master branch.
 
  * Live Website: https://markdennisuk.github.io/We-Love-Trance/
  * GitHub Repository: https://github.com/MarkDennisUK/We-Love-Trance
 
-This was done before mentor review and may need some changes.
 
 ### Media
 
