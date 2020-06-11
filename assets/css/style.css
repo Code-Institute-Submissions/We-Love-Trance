@@ -1,292 +1,228 @@
-/*--Fonts/Weight - Although the project doesn't use every one,
-I have kept them all as during/after the project, the fonts and weights can be altered--*/
-
-@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
-
-
+/*--Fonts/Weight - Although the project doesn't use every one, I have kept them all as during/after the project, the fonts and weights can be altered--*/
+ @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 /*--Header--*/
-
-.logo {
-    background: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 180px;
-    border:black 2px solid;
+ .logo {
+     background: url("../images/logo.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 180px;
+     border:black 2px solid;
 }
-
-.menu-container {
-    font-size: 0;
-    padding: 0; 
+ .menu-container {
+     font-size: 0;
+     padding: 0;
 }
-
-.menu-item {
-    height: 180px;
-    text-align: center;
-    border:black 1px solid;
-    padding: 0;
-    background-color: #724FE2;
+ .menu-item {
+     height: 180px;
+     text-align: center;
+     border:black 1px solid;
+     padding: 0;
+     background-color: #724FE2;
 }
-
-.menu-item a {
-    width: 100%;
-    text-decoration: none;
-    color: #fafafa;
+ .menu-item a {
+     width: 100%;
+     text-decoration: none;
+     color: #fafafa;
 }
-
-.menu-item a i {
-    display: block;
-    margin-top: 50px;
-    font-size: 40px;
-    color: #fafafa;
+ .menu-item a i {
+     display: block;
+     margin-top: 50px;
+     font-size: 40px;
+     color: #fafafa;
 }
-
-.menu-item span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding-top: 4px;
-    font-size: 30px;
-    font-family: "Exo", sans-serif;
-    font-weight: 200;
-    text-transform: uppercase;
-} 
-
-#nav {
-    margin: 0;
+ .menu-item span {
+     display: block;
+     width: 100%;
+     text-align: center;
+     padding-top: 4px;
+     font-size: 30px;
+     font-family: "Exo", sans-serif;
+     font-weight: 200;
+     text-transform: uppercase;
 }
-
-
-
+ #nav {
+     margin: 0;
+}
 /*--Section Home--*/
-
-.section-container {
-    margin: 0;
-    padding: 0;
+ .section-container {
+     margin: 0;
+     padding: 0;
 }
-
-.dj-image {
-    background: url("../images/dj.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
-    border:black 2px solid;
+ .dj-image {
+     background: url("../images/dj.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 800px;
+     border:black 2px solid;
 }
-
-.bio-container {
-    border:black 2px solid;
-    background-color: #fafafa;  
+ .bio-container {
+     border:black 2px solid;
+     background-color: #fafafa;
 }
-
-.bio-container {
-    text-align: center;
-    padding-top: 100px;
+ .bio-container {
+     text-align: center;
+     padding-top: 100px;
 }
-
-.bio-header {
-    font-size: 40px;
-    color: black;
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;   
+ .bio-header {
+     font-size: 40px;
+     color: black;
+     font-family: "Exo", sans-serif;
+     font-weight: 600;
+     text-transform: uppercase;
 }
-
-
-.bio-text {
-    font-size: 20px;
-    text-align: center;
-    padding: 50px;
-    font-family: "Exo", sans-serif;
+ .bio-text {
+     font-size: 20px;
+     text-align: center;
+     padding: 50px;
+     font-family: "Exo", sans-serif;
 }
-
-.contact-header {
-    font-size: 30px;
-    color: black;
-    padding-top: 100px;
-    text-transform: uppercase;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
+ .contact-header {
+     font-size: 30px;
+     color: black;
+     padding-top: 100px;
+     text-transform: uppercase;
+     font-family: "Exo", sans-serif;
+     font-weight: 500;
 }
-
-.contact-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding-bottom: 50px;
+ .contact-text {
+     font-family: "Roboto", sans-serif;
+     font-size: 20px;
+     padding-bottom: 50px;
 }
-
-.email-address{
-    color: black;
-    font-family: "Exo", sans-serif;
-    font-size: 20px;
+ .email-address{
+     color: black;
+     font-family: "Exo", sans-serif;
+     font-size: 20px;
 }
 /*--Section Listen--*/
-
-
-
-.decks-image {
-    background: url("../images/decks.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
-    border:black 2px solid;
+ .decks-image {
+     background: url("../images/decks.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 800px;
+     border:black 2px solid;
 }
-
-.music-container {
-    border:black 2px solid;
-    background-color: #fafafa;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;      
+ .music-container {
+     border:black 2px solid;
+     background-color: #fafafa;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
 }
-
-.music-item {
-    border:black 2px solid;  
-    margin: 20px;
+ .music-item {
+     border:black 2px solid;
+     margin: 20px;
 }
-
 /*--Section Signup--*/
-
-
-.studio-image {
-    background: url("../images/studio.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
-    border:black 2px solid;
+ .studio-image {
+     background: url("../images/studio.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 800px;
+     border:black 2px solid;
 }
-
-.signup-container {
-    border:black 2px solid;
-    background-color: #fafafa;
-    text-align: center;
-    padding-top: 100px;
+ .signup-container {
+     border:black 2px solid;
+     background-color: #fafafa;
+     text-align: center;
+     padding-top: 100px;
 }
-
-.signup-header {
-    font-size: 40px;
-    color: black;
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
+ .signup-header {
+     font-size: 40px;
+     color: black;
+     font-family: "Exo", sans-serif;
+     font-weight: 600;
+     text-transform: uppercase;
 }
-
-
-.signup-text {
-    font-size: 20px;
-    text-align: center;
-    padding: 50px;
-    font-family: "Exo", sans-serif;
-    padding-bottom: 60px;
+ .signup-text {
+     font-size: 20px;
+     text-align: center;
+     padding: 50px;
+     font-family: "Exo", sans-serif;
+     padding-bottom: 60px;
 }
-
-.signup-form {
-    padding-bottom: 50px; 
-    font-family: "Exo", sans-serif;  
+ .signup-form {
+     padding-bottom: 50px;
+     font-family: "Exo", sans-serif;
 }
-
-.signup-button{
-    margin: 10px;
-    
+ .signup-button{
+     margin: 10px;
 }
-
-.form-box {
-    position: relative;
-    width: 80%;
-    margin: 20px;    
+ .form-box {
+     position: relative;
+     width: 80%;
+     margin: 20px;
 }
-
 /*--Footer--*/
-
-
-footer {
-    margin: 0;
-    background-color: #724FE2; 
-    min-height: 90px;
-    border:black 2px solid;
+ footer {
+     margin: 0;
+     background-color: #724FE2;
+     min-height: 90px;
+     border:black 2px solid;
 }
-
 /*--used a fix from tutorial in mini project to stop content wrapping underneath----*/
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
+ .list-inline-item:not(:last-child) {
+     margin: 0;
 }
-
-.footer-container {
-    font-size: 0;
-    padding: 0; 
+ .footer-container {
+     font-size: 0;
+     padding: 0;
 }
-
-.footer-item {
-    height: 45px;
-    text-align: center;
-    padding: 0;
+ .footer-item {
+     height: 45px;
+     text-align: center;
+     padding: 0;
 }
-
-.footer-item a {
-    text-decoration: none;
-    width: 50%;
-    color: #fafafa;
+ .footer-item a {
+     text-decoration: none;
+     width: 50%;
+     color: #fafafa;
 }
-
-.footer-item a i {
-    display: block;
-    padding-top: 35px;
-    font-size: 20px;
-    color: #fafafa;
+ .footer-item a i {
+     display: block;
+     padding-top: 35px;
+     font-size: 20px;
+     color: #fafafa;
 }
-
-
-#footer {
-    margin: 0; 
+ #footer {
+     margin: 0;
 }
-
-.copyright {  
-    color: #fafafa;
-    padding-top: 33px;
-    font-family: "Exo", sans-serif;
-    text-align: center;
-    
+ .copyright {
+     color: #fafafa;
+     padding-top: 33px;
+     font-family: "Exo", sans-serif;
+     text-align: center;
 }
-
 /*--media query - I've made the max width 760 as the logo looked to thin on ipad --*/
-
-@media only screen and (max-width: 760px) {
-
-    .logo {
-        height: 90px;
+ @media only screen and (max-width: 760px) {
+     .logo {
+         height: 90px;
     }
-
-    .menu-item {
-        height: 90px;
+     .menu-item {
+         height: 90px;
     }
-
-    .menu-item a i {
-        margin-top: 20px;
-        font-size: 20px;
+     .menu-item a i {
+         margin-top: 20px;
+         font-size: 20px;
     }
-
-    .menu-item span {
-        font-size: 20px;
+     .menu-item span {
+         font-size: 20px;
     }
-
-    .dj-image {
-        min-height: 360px;
+     .dj-image {
+         min-height: 360px;
     }
-
-    .studio-image {
-        min-height: 360px;
+     .studio-image {
+         min-height: 360px;
     }
-
-    .decks-image {
-        min-height: 360px;
+     .decks-image {
+         min-height: 360px;
     }
-
-    .copyright {
-        margin-bottom: 10px;
+     .copyright {
+         margin-bottom: 10px;
     }
-
-    
 }
+ 
