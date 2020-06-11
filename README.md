@@ -57,10 +57,10 @@ From these colors, I used a website that helps determine primary and secondary c
 
 ### Existing Features
 
- * Logo - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
- * Navbar - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page.
- * Footer - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
- * Sections - Each section provides the user with what each page intends. There is a picture on the left of each page, all linking to the home page. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked.
+ * **Logo** - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
+ * **Navbar** - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page.
+ * **Footer** - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
+ * **Sections** - Each section provides the user with what each page intends. There is a picture on the left of each page to represent what I do. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked.
  
 ### Features to Implement
 
