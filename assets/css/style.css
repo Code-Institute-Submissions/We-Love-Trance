@@ -15,12 +15,12 @@ I have kept them all as during/after the project, the fonts and weights can be a
     border:black 2px solid;
 }
 
-.menucontainer {
+.menu-container {
     font-size: 0;
     padding: 0; 
 }
 
-.menuitem {
+.menu-item {
     height: 180px;
     text-align: center;
     border:black 1px solid;
@@ -28,20 +28,20 @@ I have kept them all as during/after the project, the fonts and weights can be a
     background-color: #724FE2;
 }
 
-.menuitem a {
+.menu-item a {
     width: 100%;
     text-decoration: none;
     color: #fafafa;
 }
 
-.menuitem a i {
+.menu-item a i {
     display: block;
     margin-top: 50px;
     font-size: 40px;
     color: #fafafa;
 }
 
-.menuitem span {
+.menu-item span {
     display: block;
     width: 100%;
     text-align: center;
@@ -58,12 +58,12 @@ I have kept them all as during/after the project, the fonts and weights can be a
 
 /*--Section Home--*/
 
-.sectioncontainer {
+.section-container {
     margin: 0;
     padding: 0;
 }
 
-.djimage {
+.dj-image {
     background: url("../images/dj.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -72,12 +72,12 @@ I have kept them all as during/after the project, the fonts and weights can be a
     border:black 2px solid;
 }
 
-.biocontainer {
+.bio-container {
     border:black 2px solid;
     background-color: #fafafa;  
 }
 
-.biocontainer {
+.bio-container {
     text-align: center;
     padding-top: 50px;
 }
@@ -123,7 +123,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
 
 
 
-.decksimage {
+.decks-image {
     background: url("../images/decks.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     border:black 2px solid;
 }
 
-.musiccontainer {
+.music-container {
     border:black 2px solid;
     background-color: #fafafa;
     display: flex;
@@ -148,7 +148,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
 /*--Section Signup--*/
 
 
-.studio {
+.studio-image {
     background: url("../images/studio.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     border:black 2px solid;
 }
 
-.signupcontainer {
+.signup-container {
     border:black 2px solid;
     background-color: #fafafa;
     text-align: center;
@@ -207,24 +207,24 @@ footer {
     margin: 0;
 }
 
-.footercontainer {
+.footer-container {
     font-size: 0;
     padding: 0; 
 }
 
-.footeritem {
+.footer-item {
     height: 90px;
     text-align: center;
     padding: 0;
 }
 
-.footeritem a {
+.footer-item a {
     text-decoration: none;
     width: 100%;
     color: #fafafa;
 }
 
-.footeritem a i {
+.footer-item a i {
     display: block;
     padding-top: 30px;
     font-size: 40px;
