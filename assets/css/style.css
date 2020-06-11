@@ -81,7 +81,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
 
 .bio-container {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .bio-header {
@@ -96,15 +96,14 @@ I have kept them all as during/after the project, the fonts and weights can be a
 .bio-text {
     font-size: 20px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
     font-family: "Exo", sans-serif;
 }
 
 .contact-header {
     font-size: 30px;
     color: black;
-    padding-top: 50px;
+    padding-top: 100px;
     text-transform: uppercase;
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -163,7 +162,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
     border:black 2px solid;
     background-color: #fafafa;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .signup-header {
@@ -178,8 +177,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
 .signup-text {
     font-size: 20px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
     font-family: "Exo", sans-serif;
     padding-bottom: 60px;
 }
@@ -197,7 +195,7 @@ I have kept them all as during/after the project, the fonts and weights can be a
 .form-box {
     position: relative;
     width: 80%;
-    margin: 15px;    
+    margin: 20px;    
 }
 
 /*--Footer--*/
@@ -253,9 +251,9 @@ footer {
     
 }
 
-/*--media query --*/
+/*--media query - I've made the max width 760 as the logo looked to thin on ipad --*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 760px) {
 
     .logo {
         height: 90px;
