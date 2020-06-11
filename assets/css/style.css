@@ -56,6 +56,8 @@ I have kept them all as during/after the project, the fonts and weights can be a
     margin: 0;
 }
 
+
+
 /*--Section Home--*/
 
 .section-container {
@@ -251,4 +253,21 @@ footer {
     
 }
 
+/*--media query --*/
 
+@media only screen and (max-width: 768px) {
+    .menu-item {
+        height: 90px;
+    }
+
+    .menu-item a i {
+    margin-top: 20px;
+    font-size: 20px;
+    }
+
+.menu-item span {
+    font-size: 20px;
+    }
+
+    
+}
