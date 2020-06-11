@@ -1,31 +1,10 @@
-/*---------------------------------------------------------Fonts/Weight - Although the project doesn't use every one, I have kept them all as during/after the project, the fonts and weights can be altered-*/
+/*--Fonts/Weight - Although the project doesn't use every one,
+I have kept them all as during/after the project, the fonts and weights can be altered--*/
 
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
-/*---------------------------------------------------------Colors--*/
 
-.menu-color-home {
-    background-color: #724FE2;
-}
-
-
-.menu-color-listen {
-    background-color: #6341CD;
-}
-
-
-.menu-color-buy {
-    background-color: #3F27A1;
-}
-
-
-.menu-color-signup {
-    background-color: #341f81}
-
-
-
-
-/*---------------------------------------------------------Header--*/
+/*--Header--*/
 
 .logo {
     background: url("../images/logo.jpg");
@@ -46,6 +25,7 @@
     text-align: center;
     border:black 1px solid;
     padding: 0;
+    background-color: #724FE2;
 }
 
 .menuitem a {
@@ -76,7 +56,7 @@
     margin: 0;
 }
 
-/*---------------------------------------------------------Section Home--*/
+/*--Section Home--*/
 
 .sectioncontainer {
     margin: 0;
@@ -94,7 +74,7 @@
 
 .biocontainer {
     border:black 2px solid;
-    background-color: #BCBBFF;  
+    background-color: #fafafa;  
 }
 
 .biocontainer {
@@ -139,7 +119,7 @@
     font-family: "Exo", sans-serif;
     font-size: 20px;
 }
-/*---------------------------------------------------------Section Listen--*/
+/*--Section Listen--*/
 
 
 
@@ -154,7 +134,7 @@
 
 .musiccontainer {
     border:black 2px solid;
-    background-color: #00FDFB;
+    background-color: #fafafa;
     display: flex;
     flex-direction: column;
     justify-content: space-between;      
@@ -165,7 +145,7 @@
     margin: 20px;
 }
 
-/*---------------------------------------------------------Section Signup--*/
+/*--Section Signup--*/
 
 
 .studio {
@@ -179,7 +159,7 @@
 
 .signupcontainer {
     border:black 2px solid;
-    background-color: #CEB8DC;
+    background-color: #fafafa;
     text-align: center;
     padding-top: 50px;
 }
@@ -211,7 +191,7 @@
     margin: 10px;
 }
 
-/*---------------------------------------------------------Footer--*/
+/*--Footer--*/
 
 
 footer {
@@ -221,7 +201,7 @@ footer {
     border:black 2px solid;
 }
 
-/*------------------------------------used a fix from tutorial in mini project to stop content wrapping underneath----*/
+/*--used a fix from tutorial in mini project to stop content wrapping underneath----*/
 
 .list-inline-item:not(:last-child) {
     margin: 0;
