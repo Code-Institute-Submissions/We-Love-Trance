@@ -1,6 +1,6 @@
 /*---------------------------------------------------------Fonts/Weight - Although the project doesn't use every one, I have kept them all as during/after the project, the fonts and weights can be altered-*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
 /*---------------------------------------------------------Colors--*/
 
@@ -116,7 +116,7 @@
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Exo", sans-serif;
 }
 
 .contact-header {
@@ -136,7 +136,7 @@
 
 .email-address{
     color: black;
-    font-family: "Roboto", sans-serif;
+    font-family: "Exo", sans-serif;
     font-size: 20px;
 }
 /*---------------------------------------------------------Section Listen--*/
@@ -198,7 +198,7 @@
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Exo", sans-serif;
     padding-bottom: 50px;
 }
 
@@ -259,7 +259,7 @@ footer {
     color: #fafafa;
     padding-top: 33px;
     margin-bottom: 20px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Exo", sans-serif;
 }
 
 
