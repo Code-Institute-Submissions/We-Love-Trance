@@ -107,3 +107,5 @@ This was done before mentor review and may need some changes.
  * http://shoelace.io/
  * https://soundcloud.com/mark-dennis-uk/
  * https://cdnjs.com/
+ * https://webformatter.com/html
+ * https://www.cleancss.com/css-beautify/
