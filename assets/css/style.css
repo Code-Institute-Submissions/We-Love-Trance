@@ -60,13 +60,13 @@ I have kept them all as during/after the project, the weights can be altered--*/
      padding: 0;
 }
  .dj-image {
-     background: url("../images/dj.jpg");
+     background-image: url("../images/dj.jpg");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      min-height: 1100px;
-     border: 2px solid black;
-}
+     border:black 2px solid;
+ }
  .bio-container {
      border: 2px solid black;
      background-color: #fafafa;
