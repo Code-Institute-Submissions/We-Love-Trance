@@ -55,7 +55,7 @@ I have kept them all as during/after the project, the weights can be altered--*/
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     min-height: 800px;
+     min-height: 1100px;
      border: 2px solid black;
 }
  .bio-container {
@@ -76,7 +76,7 @@ I have kept them all as during/after the project, the weights can be altered--*/
  .bio-text {
      font-size: 20px;
      text-align: center;
-     padding: 50px;
+     padding: 20px;
      font-family: "Exo", sans-serif;
 }
  .contact-header {
@@ -103,7 +103,7 @@ I have kept them all as during/after the project, the weights can be altered--*/
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     min-height: 800px;
+     min-height: 1100px;
      border:black 2px solid;
 }
  .music-container {
@@ -124,7 +124,7 @@ I have kept them all as during/after the project, the weights can be altered--*/
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     min-height: 800px;
+     min-height: 1100px;
      border: 2px solid black;
 }
  .signup-container {
@@ -143,11 +143,11 @@ I have kept them all as during/after the project, the weights can be altered--*/
  .signup-text {
      font-size: 20px;
      text-align: center;
-     padding: 50px;
+     padding: 20px;
      font-family: "Exo", sans-serif;
-     padding-bottom: 60px;
 }
  .signup-form {
+     padding-top: 50px;
      padding-bottom: 50px;
      font-family: "Exo", sans-serif;
 }
@@ -200,8 +200,20 @@ I have kept them all as during/after the project, the weights can be altered--*/
      font-family: "Exo", sans-serif;
      text-align: center;
 }
-/*--media query - I've made the max width 760 as the logo looked too thin on ipad --*/
- @media only screen and (max-width: 760px) {
+
+/*--media querys --*/
+ @media only screen and (max-width: 1024px) { 
+     .dj-image {
+         min-height: 360px;
+     }
+     .studio-image {
+         min-height: 360px;
+     }
+     .decks-image {
+         min-height: 360px;
+     }
+     /*--media query - I've made the max width 600 as the logo looked too thin on ipad --*/
+ @media only screen and (max-width: 600px) {
      .logo {
          height: 90px;
     }
@@ -229,15 +241,18 @@ I have kept them all as during/after the project, the weights can be altered--*/
     }
      .bio-container{
          padding: 20px;
-     }
+    }
      .bio-text {
          padding: 10px;
-     }
+    }
      .signup-container {
          padding-top: 20px;
-}
+    }
      .signup-text {
-     padding: 20px;
-     padding-bottom: 20px;
-}
- 
+         padding: 20px;
+         padding-bottom: 20px;
+    }
+     .music-item {
+         height: 100px;
+     }
+ }
