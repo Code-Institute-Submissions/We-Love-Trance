@@ -74,6 +74,8 @@ Before submission, I have deployed my code onto Git Pages. I done this by going 
 
  * Live Website: https://markdennisuk.github.io/We-Love-Trance/
  * GitHub Repository: https://github.com/MarkDennisUK/We-Love-Trance
+ 
+For anybody wanting to clone my work, they would have to go my repository and click on 'Clone/Download'. Then, click 'Open in Desktop' to clone the repository and open it in GitHub Desktop. Click 'Choose' and, using Windows Explorer, navigate to a local path where you want to clone the repository.
 
 
 ### Media
