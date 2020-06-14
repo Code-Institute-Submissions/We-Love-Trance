@@ -112,6 +112,7 @@ I have kept them all as during/after the project, the weights can be altered--*/
      display: flex;
      flex-direction: column;
      justify-content: space-between;
+     align-items: center;
 }
  .music-item {
      border: 2px solid black;
@@ -157,6 +158,7 @@ I have kept them all as during/after the project, the weights can be altered--*/
      position: relative;
      width: 80%;
      margin: 20px;
+     height: 50px;
 }
 /*--Footer--*/
  footer {
@@ -225,5 +227,17 @@ I have kept them all as during/after the project, the weights can be altered--*/
      .copyright {
          margin-bottom: 10px;
     }
+     .bio-container{
+         padding: 20px;
+     }
+     .bio-text {
+         padding: 10px;
+     }
+     .signup-container {
+         padding-top: 20px;
+}
+     .signup-text {
+     padding: 20px;
+     padding-bottom: 20px;
 }
  
