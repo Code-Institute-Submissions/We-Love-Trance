@@ -35,7 +35,7 @@ From these colors, I used a website that helps determine primary and secondary c
 
 ## Technologies Used
 
-My project uses HTML and CSS in conjunction with the Bootstrap Framework. I used Google Fonts for the texts and font awesome for the icons. I used GitPod to write my code.
+My project uses HTML and CSS in conjunction with the Bootstrap Framework. I used Google Fonts for the texts and font awesome for the icons. I used GitPod as my IDE.
  
 I have used these because during my studies so far, I have learnt how to use these to incorporate into websites. I felt the icons were a good fit for what I was trying to achieve. The fonts I've used I felt also fit into the type of website it is.
 
