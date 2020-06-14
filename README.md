@@ -6,7 +6,7 @@ I decided on a home page that would act as a biography, a listen page so people 
 
 ## UX
 
-The aim for my website was to showcase my music. I felt that the layout should be simple and took inspiration from the bootstrap tutorials and worked in thirds. I wanted to have the same navigation and footer across all three pages for both simplicity and ease of use for visitors to the website.
+The aim for my website was to showcase my music. I felt that the layout should be simple and took inspiration from the bootstrap tutorials and worked in thirds. I wanted to have the same navigation and footer across all three pages for both simplicity and ease of use for visitors to the website. The footer section I fixed to the top, so the user doesn't have to scroll back up to click on other links.
 
 For the user visiting my website, they will want:
 
@@ -21,46 +21,32 @@ My website has been split into pages specifically for each of these user goals.
   * The listen.html page has four tracks that I've produced for the user to stream from SoundCloud via my website,
   * A sign up page for the user to enter their email address to receive updates on future release dates, gigs, and a newsletter.
 
-
-
 I created a wireframe of which the file is in the wireframe directory. This was the first time using wireframes so it was quite simple in design but it put across how I wanted my website to look. Minor deviations from the wireframe structure were made whilst writing the code but on the whole, the layout is the same.
 
 Due to the use of Bootstrap technology, the whole website collapses into a nicely presented format when viewed on mobile. 
 
 At the time of me doing the project, I have started the process of monetising my tracks, so that the link from the buy menu will actually take the user to Spotify or SoundCloud to purchase the music.
 
-## Technologies Used
-
-My project uses HTML and CSS in conjunction with the Bootstrap Framework. I used Google Fonts for the texts and font awesome for the icons.
-
- * https://fontawesome.com/start
-
- * https://fonts.google.com/
-
- * https://www.bootstrapcdn.com/
- 
-I have used these because during my studies so far, I have learnt how to use these to incorporate into websites. I felt the icons were a good fit for what I was trying to achieve. The fonts I've used I felt also fit into the type of website it is.
-
 I took pictures from pixabay to use in my project. I used these as they are royalty free and cost nothing. The pictures used are of the highest quality and represented the page of where it was used in my project.
 
- * https://pixabay.com/
-
 I have used the same logo that I created for all of the pages. Because of this, I used a color picker website to determine the color scheme of the website.
-
- * https://html-color-codes.info/colors-from-image/
  
-From these colors, I used a website that helps determine primary and secondary color themes:
+From these colors, I used a website that helps determine primary and secondary color themes.
 
- * https://material.io/
+## Technologies Used
+
+My project uses HTML and CSS in conjunction with the Bootstrap Framework. I used Google Fonts for the texts and font awesome for the icons. I used GitPod to write my code.
+ 
+I have used these because during my studies so far, I have learnt how to use these to incorporate into websites. I felt the icons were a good fit for what I was trying to achieve. The fonts I've used I felt also fit into the type of website it is.
 
 ## Features
 
 ### Existing Features
 
  * **Logo** - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
- * **Navbar** - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page.
- * **Footer** - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and buy. To the right of these, a copyright. I decided on reversing the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
- * **Sections** - Each section provides the user with what each page intends. There is a picture on the left of each page to represent what I do. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked.
+ * **Navbar** - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page. This is stuck to the top of each page.
+ * **Footer** - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and Buy. To the right of these, a copyright. I decided on using the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
+ * **Sections** - Each section provides the user with what each page intends. There is a picture on the left of each page to represent what I do. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked. The pictures become smaller on small devices and the content wraps underneath.
  
 ### Features to Implement
 
@@ -70,7 +56,7 @@ The buy link will in future take the user to a website to purchase my music. I a
 
 I published my project for peer review on Slack. I had a few suggestions which I had a look at and made a few changes. After a review with my mentor it was evident I needed to change the layout for iPad use, which I implemented.
 
-During my own testing process, I have clicked on each link on each page to check it worked as expected. The logo takes the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages in a new tab.
+During my own testing process, I have clicked on each link on each page to check it worked as expected. I done this for every device listed on dev tools. The logo takes the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages in a new tab.
 
 On the home page, the link to my email works as intended. It opened my email application.
 
@@ -78,7 +64,7 @@ The tracks on the listen page all play as intended when clicked on the play butt
 
 The form on the sign up page prompts when the user does not put information in correctly.
 
-I have used developer tools on Google Chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes.
+I have used developer tools on Google Chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes. I made the browser increasingly smaller to see what media querys I needed to put in to change the size of photos and the padding tops of the sections on each page.
 
 I did encounter a slight problem midway through my project. I'm not exactly sure what I done but after replicating the footer and header on all three pages, there seemed to be a margin above three of the navigation bar items as I resized the screen to smaller areas. I only noticed after committing the code. I hadn't added any other HTML or CSS so I couldn't understand why this had happened so I had to go back to the previous commit and use the code from there. I also pulled the .list-inline-item:not(:last-child) from the tutorial in the mini project to stop content from wrapping underneath. This solved the problem. 
 
