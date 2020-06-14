@@ -2,6 +2,12 @@
 I have kept them all as during/after the project, the weights can be altered--*/
  @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 /*--Header--*/
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
  .logo {
      background: url("../images/logo.jpg");
      background-position: center;
@@ -46,6 +52,9 @@ I have kept them all as during/after the project, the weights can be altered--*/
      margin: 0;
 }
 /*--Section Home--*/
+ .section-body {
+     padding-top: 180px; 
+ }
  .section-container {
      margin: 0;
      padding: 0;
@@ -212,6 +221,13 @@ I have kept them all as during/after the project, the weights can be altered--*/
      .decks-image {
          min-height: 360px;
      }
+ }
+ /*-- between these widths the section padding needs to clear the nav bar on ipad and similar width devices --*/
+ @media (max-width:991px) and (min-width:601px) {
+     .section-body {
+     padding-top: 360px; 
+ }
+ }
      /*--media query - I've made the max width 600 as the logo looked too thin on ipad --*/
  @media only screen and (max-width: 600px) {
      .logo {
@@ -254,5 +270,5 @@ I have kept them all as during/after the project, the weights can be altered--*/
     }
      .music-item {
          height: 100px;
-     }
+    }
  }
