@@ -125,6 +125,8 @@
  .music-item {
      border: 1px solid black;
      margin: 20px;
+     width: 90%;
+     height: 200px;                         
 }
 /*--Section Signup--*/
  .studio-image {
