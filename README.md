@@ -54,7 +54,7 @@ The buy link will in future take the user to a website to purchase my music. I a
 
 ## Testing
 
-I published my project for peer review on Slack. I had a few suggestions which I had a look at and made a few changes. After a review with my mentor it was evident I needed to change the layout for iPad use, which I implemented.
+I published my project for peer review on Slack. I had a few suggestions which I had a look at and made a few changes. After a review with my mentor it was evident I needed to change the layout for iPad use, which I implemented. My mentor also extensively looked at each page and tested each element with dev tools and told me it looked and functioned well.
 
 During my own testing process, I have clicked on each link on each page to check it worked as expected. I done this for every device listed on dev tools. The logo takes the user to the home page, as does the home button. All of the footer icons take the user to the relevant web pages in a new tab.
 
