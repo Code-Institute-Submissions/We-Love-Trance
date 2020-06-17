@@ -69,7 +69,7 @@ I have used developer tools on Google Chrome throughout the project to make sure
 I used a CSS validator and HTML Validator to test my code. Screenshots of each can be seen here:
 
  * [CSS](https://ibb.co/s55VpFp) 
- * [Index.html](https://ibb.co/4tKY9cM)
+ * [Index.html](https://ibb.co/4tKY9cM target="_blank")
  * [Listen.html](https://ibb.co/4sxGxbC)
  * [Signup.html](https://ibb.co/ZWWyRHy)
 
