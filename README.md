@@ -77,6 +77,8 @@ I did encounter a slight problem midway through my project. I'm not exactly sure
 
 There was a warning about the lack of a header on the Listen page when I ran it through the HTML validator, but I felt the section did not need a header as it was evident what the section provided in terms purpose.
 
+There were warnings after testing about the embed links of the music tracks on the listen page. I fixed this by removing the styling from the code and styling the links myself in the CSS file.
+
 ## Deployment
 
 Before submission, I have deployed my code onto Git Pages. I done this by going into settings under my repository and under "GitHub Pages", used the Source drop-down menu and selected a publishing source of master branch.
