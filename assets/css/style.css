@@ -51,6 +51,7 @@
      margin: 0;
 }
 /*--Section Home--*/
+/*--Ive set this to clear the sticky nav bar --*/
  .section-body {
      padding-top: 180px;
 }
@@ -59,7 +60,7 @@
      padding: 0;
 }
  .dj-image {
-     background-image: url("../images/dj.jpg");
+     background: url("../images/dj.jpg");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -271,4 +272,10 @@
      .music-item {
          height: 100px;
     }
+     .contact-header {
+         padding-top: 20px;
+    }
+     .contact-text {
+         padding-bottom: 20px;
+     }
 }
