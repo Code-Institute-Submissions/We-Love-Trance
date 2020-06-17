@@ -73,7 +73,9 @@ I used a CSS validator and HTML Validator to test my code. Screenshots of each c
  * [Listen.html](https://ibb.co/4sxGxbC)
  * [Signup.html](https://ibb.co/ZWWyRHy)
 
-I did encounter a slight problem midway through my project. I'm not exactly sure what I done but after replicating the footer and header on all three pages, there seemed to be a margin above three of the navigation bar items as I resized the screen to smaller areas. I only noticed after committing the code. I hadn't added any other HTML or CSS so I couldn't understand why this had happened so I had to go back to the previous commit and use the code from there. I also pulled the .list-inline-item:not(:last-child) from the tutorial in the mini project to stop content from wrapping underneath. This solved the problem. 
+I did encounter a slight problem midway through my project. I'm not exactly sure what I done but after replicating the footer and header on all three pages, there seemed to be a margin above three of the navigation bar items as I resized the screen to smaller areas. I only noticed after committing the code. I hadn't added any other HTML or CSS so I couldn't understand why this had happened so I had to go back to the previous commit and use the code from there. I also pulled the .list-inline-item:not(:last-child) from the tutorial in the mini project to stop content from wrapping underneath. This solved the problem.
+
+There was a warning about the lack of a header on the Listen page when I ran it through the HTML validator, but I felt the section did not need a header as it was evident what the section provided in terms purpose.
 
 ## Deployment
 
