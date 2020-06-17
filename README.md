@@ -6,7 +6,7 @@ I decided on a home page that would act as a biography, a listen page so people 
 
 ## UX
 
-The aim for my website was to showcase my music. I felt that the layout should be simple and took inspiration from the bootstrap tutorials and worked in thirds. I wanted to have the same navigation and footer across all three pages for both simplicity and ease of use for visitors to the website. The footer section I fixed to the top, so the user doesn't have to scroll back up to click on other links.
+The aim for my website was to showcase my music. I felt that the layout should be simple and took inspiration from the bootstrap tutorials and worked in thirds. I wanted to have the same navigation and footer across all three pages for both simplicity and ease of use for visitors to the website. The header section I fixed to the top, so the user doesn't have to scroll back up to click on other links.
 
 For the user visiting my website, they will want:
 
@@ -27,7 +27,7 @@ Due to the use of Bootstrap technology, the whole website collapses into a nicel
 
 At the time of me doing the project, I have started the process of monetising my tracks, so that the link from the buy menu will actually take the user to Spotify or SoundCloud to purchase the music.
 
-I took pictures from pixabay to use in my project. I used these as they are royalty free and cost nothing. The pictures used are of the highest quality and represented the page of where it was used in my project.
+I took background pictures from pixabay to use in my project. I used these as they are royalty free and cost nothing. The pictures used are of the highest quality and represented the page of where it was used in my project.
 
 I have used the same logo that I created for all of the pages. Because of this, I used a color picker website to determine the color scheme of the website.
  
@@ -45,8 +45,8 @@ I have used these because during my studies so far, I have learnt how to use the
 
  * **Logo** - I have created my own logo which takes the space at the top left of all three pages and provides a link back to my home page. I have taken the color scheme from this.
  * **Navbar** - The navigation bar, like the logo, is the same across all three pages. There are four links, home, listen, buy, signup. Each link has it's own icon which pulses once hovered over. Home, listen and signup take the user to each of the three pages within my website whilst buy takes the user to an external website in a new browser page. This is stuck to the top of each page.
- * **Footer** - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and Buy. To the right of these, a copyright. I decided on using the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page.
- * **Sections** - Each section provides the user with what each page intends. There is a picture on the left of each page to represent what I do. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and tweaked. The pictures become smaller on small devices and the content wraps underneath.
+ * **Footer** - The footer has four links, made up of icons. Facebook, SoundCloud, YouTube and Buy. To the right of these, a copyright. I decided on using the bootstrap configuration I used for the header as I thought it looks aesthetically pleasing, and was easy to implement, creating less work thus saving on time. Each link opens in a new browser page. I have used an aria label for each icon for screen readers.
+ * **Sections** - Each section provides the user with what each page intends. There is a background picture on the left of each page to represent what I do. Home is a biography and an email for the user to contact myself. The listen page enables the user to listen to four of my tracks. The sign up page enables the user to sign up for information on new releases, gigs and a newsletter. The code for the embedded tracks were copied from my soundcloud page and styled with CSS. The pictures become smaller on small devices and the content wraps underneath.
  
 ### Features to Implement
 
@@ -64,7 +64,7 @@ The tracks on the listen page all play as intended when clicked on the play butt
 
 The form on the sign up page prompts when the user does not put information in correctly.
 
-I have used developer tools on Google Chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes. I made the browser increasingly smaller to see what media querys I needed to put in to change the size of photos and the padding tops of the sections on each page.
+I have used developer tools on Google Chrome throughout the project to make sure everything looks as intended on both mobile devices and larger screens. I also used this process to check all of the above on various media sizes. I made the browser increasingly smaller to see what media querys I needed to put in to change the size of photos and the padding of the sections on each page.
 
 I used a CSS validator and HTML Validator to test my code. Screenshots of each can be seen here:
 
