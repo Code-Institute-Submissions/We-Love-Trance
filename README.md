@@ -103,3 +103,5 @@ For anybody wanting to clone my work, they would have to go my repository and cl
  * https://cdnjs.com/
  * https://webformatter.com/html
  * https://www.cleancss.com/css-beautify/
+ * https://validator.w3.org/
+ * https://jigsaw.w3.org/css-validator/
